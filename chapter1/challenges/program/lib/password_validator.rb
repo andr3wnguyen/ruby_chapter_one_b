@@ -9,4 +9,3 @@
 def valid?(password)
   return password.length>7 && password.match?(/[!@$%&]/)
 end
-
